@@ -6,7 +6,6 @@ CLASS cl_apj_jt_check_base DEFINITION
   PUBLIC SECTION.
 
     INTERFACES if_apj_jt_check.
-
   PROTECTED SECTION.
 ENDCLASS.
 

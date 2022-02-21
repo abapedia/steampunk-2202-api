@@ -11,6 +11,11 @@ INTERFACE /iwbep/if_cp_request_create
       VALUE(ro_data_description_node) TYPE REF TO /iwbep/if_cp_data_desc_node
     RAISING
       /iwbep/cx_gateway.
+  METHODS create_res_w_content_id_ref
+      RETURNING
+        VALUE(ro_resource) TYPE REF TO /iwbep/if_cp_resource_entity
+      RAISING
+        /iwbep/cx_gateway.
   METHODS execute
     RETURNING
       VALUE(ro_response) TYPE REF TO /iwbep/if_cp_response_create
@@ -40,4 +45,5 @@ INTERFACE /iwbep/if_cp_request_create
       VALUE(ro_request)    TYPE REF TO /iwbep/if_cp_request_create
     RAISING
       /iwbep/cx_gateway.
+
 ENDINTERFACE.

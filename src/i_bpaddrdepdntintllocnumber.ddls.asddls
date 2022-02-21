@@ -1,10 +1,12 @@
 @AbapCatalog.sqlViewName: 'IBUPADDRILN'
 @AbapCatalog.compiler.compareFilter: true
+@AbapCatalog.preserveKey: true
 @ClientHandling.algorithm : #SESSION_VARIABLE
 @VDM.viewType: #BASIC
 @AccessControl.authorizationCheck: #CHECK
 @AccessControl.personalData.blocking: #REQUIRED
 @AccessControl.privilegedAssociations: '_AddressDefaultRepresentation'
+@Metadata.ignorePropagatedAnnotations: true 
 @ObjectModel.supportedCapabilities: [#SQL_DATA_SOURCE,
                                      #CDS_MODELING_DATA_SOURCE,
                                      #CDS_MODELING_ASSOCIATION_TARGET]
@@ -14,6 +16,7 @@
 @ObjectModel.usageType.sizeCategory: #XXL
 @ObjectModel.usageType.dataClass: #MASTER
 
+/*+[hideWarning] { "IDS" : [ "CARDINALITY_CHECK" ]  } */
 define view I_BPAddrDepdntIntlLocNumber
   as select from but022 as BusinessPartnerAddrDepILN
 

@@ -1,4 +1,7 @@
 INTERFACE if_xco_ao_s_p_changings PUBLIC.
+  INTERFACES:
+    if_xco_ao_s_parameters.
+
   DATA:
     method TYPE REF TO if_xco_ao_c_method READ-ONLY.
 

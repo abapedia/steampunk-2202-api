@@ -19,6 +19,11 @@ INTERFACE if_web_http_request
     name_value_pairs TYPE STANDARD TABLE OF name_value_pair WITH NON-UNIQUE KEY !name.
   TYPES:
     cookies          TYPE STANDARD TABLE OF cookie WITH NON-UNIQUE KEY !name !path.
+
+  CONSTANTS co_protocol_version_1_0 TYPE i VALUE 1000 ##NO_TEXT.
+  CONSTANTS co_protocol_version_1_1 TYPE i VALUE 1001 ##NO_TEXT.
+  CONSTANTS co_formfield_encoding_raw TYPE i VALUE 1 ##NO_TEXT.
+  CONSTANTS co_formfield_encoding_encoded TYPE i VALUE 2 ##NO_TEXT.
   METHODS set_form_field
     IMPORTING
       !i_name TYPE string
@@ -207,4 +212,31 @@ INTERFACE if_web_http_request
       VALUE(r_value) TYPE REF TO if_web_http_request
     RAISING
       cx_web_message_error.
+  METHODS delete_header_field
+    IMPORTING
+      !name TYPE string.
+  METHODS set_content_type
+    IMPORTING
+      !content_type TYPE string.
+  METHODS set_version
+    IMPORTING
+      VALUE(version) TYPE i DEFAULT co_protocol_version_1_0.
+  METHODS to_xstring
+    RETURNING
+      VALUE(data) TYPE xstring.
+  METHODS from_xstring
+    IMPORTING
+      !data TYPE xstring.
+  METHODS get_data_length
+    EXPORTING
+      VALUE(data_length) TYPE i.
+  METHODS set_formfield_encoding
+    IMPORTING
+      !formfield_encoding TYPE i.
+  METHODS get_last_error
+    RETURNING
+      VALUE(rc) TYPE i.
+  METHODS get_content_type
+    RETURNING
+      VALUE(content_type) TYPE string.
 ENDINTERFACE.

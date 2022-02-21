@@ -1,5 +1,19 @@
 INTERFACE /iwbep/if_cp_resource_entity
   PUBLIC.
+  METHODS bind_action
+    IMPORTING
+      iv_action_name            TYPE /iwbep/if_cp_runtime_types=>ty_internal_name
+    RETURNING
+      VALUE(ro_action_resource) TYPE REF TO /iwbep/if_cp_resource_action
+    RAISING
+      /iwbep/cx_gateway.
+  METHODS bind_function
+    IMPORTING
+      iv_function_name            TYPE /iwbep/if_cp_runtime_types=>ty_internal_name
+    RETURNING
+      VALUE(ro_function_resource) TYPE REF TO /iwbep/if_cp_resource_function
+    RAISING
+      /iwbep/cx_gateway.
   METHODS create_request_for_delete
     RETURNING
       VALUE(ro_request) TYPE REF TO /iwbep/if_cp_request_delete

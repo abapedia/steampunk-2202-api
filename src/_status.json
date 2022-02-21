@@ -11,7 +11,939 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,/iwbep/if_cp_client_proxy": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_data_desc_node": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_data_desc_node_l": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_expand_node": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_filter_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_filter_node": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_action": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_batch": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_batch_op": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_changeset": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_create": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_delete": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_function": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_read": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_read_01": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_read_dlta": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_read_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_update": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_request_update_l": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_resource_action": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_resource_entity": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_resource_entity01": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_resource_function": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_resource_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_action": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_create": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_function": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_read": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_read_01": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_read_lst": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_update": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_response_update_l": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_runtime_types": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,/iwbep/if_cp_search_node": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,/ui2/cl_json": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "type,abap": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abap_boolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,abap_boolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abap_encod": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abap_msize": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abap_sortorder": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abap_sortorder_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_action_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_association_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_authorization": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_authorization_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_changes": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_changes_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_cid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_draft": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_feature": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_features": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_features_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_flag": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_global_permissions": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_global_permission_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_kind": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_locks": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_locks_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_op_modify": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_op_read": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_par_edit": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_permissions": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_permissions_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_pid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_relating_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_response": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_response_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,abp_behv_retrievals": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_behv_retrievals_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_behv_typekind": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_creation_date": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_creation_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_creation_tstmpl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_creation_user": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_creation_utcl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_element_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_entity_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_field_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,abp_field_name_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_lastchange_date": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_lastchange_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_lastchange_tstmpl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_lastchange_user": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_lastchange_utcl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_locinst_lastchange_date": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_locinst_lastchange_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_locinst_lastchange_tstmpl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_locinst_lastchange_user": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_locinst_lastchange_utcl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abp_root_entity_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abwga_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,abwkt_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,activ_auth": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,activ_auth": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,address_printform_line": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_addrnum": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_adrtype": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_ctry_fr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_handle": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_line_s": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_persnum": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_title": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ad_titletx": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,alias_type_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,als_type_rule": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,als_type_validation": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,anzei": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,appl_var": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,arch_stat": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,arfctid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,aufnr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,aufps": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,auftyp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,authfield_vals": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,authorization": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,authorization_for_object": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,authorization_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,authvalinterval": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,authvalinterval_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,badi_context_mode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,badi_filter_binding": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,badi_filter_bindings": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,badi_filter_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,badi_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ballevel": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,balloghndl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,balmnr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,balobj_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,balognr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,balsubobj": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bal_s_lgnm": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bal_t_lgnm": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bank_alias": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapiag": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiala": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapialb": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapialc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiald": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapialf": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapialg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapialt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiconvrs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapicurext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapicurext31": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapicurr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapicurr_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapicurx": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapicurx31": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiexta": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiextc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4a": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4b": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4c": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4e": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4f": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapif4m": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,bapiflag": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiflag": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapihtml": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiinfo": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapilogsys": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapimaxrow": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapimoncom": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapimonit": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bapimonlst": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapimonstr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapinetwrk": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiobjid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapioption": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapipara": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiparex": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bapiparextab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiparex_help": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiranges": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapirelsta": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiret2": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapiretc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bapiretct": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapireti": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bapiretm": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapirets": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,bapirettab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapishlp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapisign": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapisrcsys": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapita": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapitga": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapitgb": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapiupdate": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapiwait": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_back": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_comp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_conv": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_fld": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_high": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_index": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_lfrmt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_line": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_linesize": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_listr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_lmask": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_low": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_msg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_mtype": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_ncomt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_param": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_sign": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bapi_stand": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_stxt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_tabl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_tfrmt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bapi_tline": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,bdwfap_par": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,begru": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,begru": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,belnr_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bemot": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bktxt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,blart": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bldat": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bschl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,budat": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bukrs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bupla": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,buzei": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,bwstrat": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,calendardate": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,calltrans2": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,char01": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,char1": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,char30": {
     "status": "RELEASED",
     "successors": []
   },
@@ -523,6 +1455,30 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cl_ci_atc_assistant_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_ci_atc_data_provider": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_ci_atc_finding_details": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_ci_atc_quickfixes": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_ci_atc_quickfix_context": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_ci_atc_unit_driver": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cl_cmis_client_factory": {
     "status": "RELEASED",
     "successors": []
@@ -588,6 +1544,10 @@
     "successors": []
   },
   "clas,cl_fdt_obj_system_variables": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_fhc_calendar_runtime": {
     "status": "RELEASED",
     "successors": []
   },
@@ -743,6 +1703,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cl_ws_protocol_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cl_xco_abap_t_bi_fixed_length": {
     "status": "RELEASED",
     "successors": []
@@ -816,6 +1780,14 @@
     "successors": []
   },
   "clas,cl_xco_amdp_db_type": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_ao_parameter_kind": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_ao_parameter_kind_f": {
     "status": "RELEASED",
     "successors": []
   },
@@ -1031,6 +2003,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cl_xco_cp_cs_fmt_adt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_cp_cs_lp_method": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cl_xco_cp_ddef_ent_text_attr_f": {
     "status": "RELEASED",
     "successors": []
@@ -1084,6 +2064,10 @@
     "successors": []
   },
   "clas,cl_xco_cp_gen_ttyp_template": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_cp_iam_bc_txt_attr_f": {
     "status": "RELEASED",
     "successors": []
   },
@@ -1152,6 +2136,18 @@
     "successors": []
   },
   "clas,cl_xco_cp_tr_resolution_fctry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_cs_format": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_cs_line_number_flavor": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_cs_line_pattern": {
     "status": "RELEASED",
     "successors": []
   },
@@ -1355,6 +2351,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cl_xco_iam_bc_text": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cl_xco_iam_bc_text_attribute": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cl_xco_mc_text": {
     "status": "RELEASED",
     "successors": []
@@ -1519,6 +2523,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cl_xco_tr_es_builder": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cl_xco_tr_kind": {
     "status": "RELEASED",
     "successors": []
@@ -1579,7 +2587,331 @@
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,cmis_decimal": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_destination": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_enum": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_long": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_repository_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,cmis_string": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_ace": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_acl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_acl_capabilities": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_allowable_actions": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_capabilities": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_change_event": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_choice": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_client_property": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_cnt_dlvry_nfo": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_content_raw": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_content_stream": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_date_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_extended_features": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_extension": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_id_and_change_token": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_impl_cap": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_key_value": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_key_values": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object_container": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object_in_folder": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object_in_folder_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_object_parent": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_permission_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_permission_mapping": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_principal": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_properties": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_property": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_property_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_property_value": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_query_result": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_query_result_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_relationship": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_rendition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_repository_info": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_type_container": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_type_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_type_list": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_type_mutability": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,cmis_s_type_set_attr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_ace": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_boolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_choice": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_client_property": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_date_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_decimal": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_enum": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_extended_features": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_extension": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_id_and_change_token": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_key_values": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_long": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_map": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_object": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_object_container": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_object_in_folder": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_object_parent": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_permission_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_permission_mapping": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_property": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_property_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_property_value": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_query_result": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_relationship": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_rendition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_repository_info": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_string": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_type_container": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,cmis_t_type_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cm_apj_base": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,config_deprecation_code": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,co_belnr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,co_ressource": {
     "status": "RELEASED",
     "successors": []
   },
@@ -1843,6 +3175,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cx_ble_dynamic_table_error": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cx_ble_runtime_error": {
     "status": "RELEASED",
     "successors": []
@@ -1864,6 +3200,18 @@
     "successors": []
   },
   "clas,cx_chdo_write_error": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cx_ci_atc_check_invalid_attr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cx_ci_atc_invalid_comp_unit": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cx_ci_atc_token_no_call": {
     "status": "RELEASED",
     "successors": []
   },
@@ -1960,6 +3308,10 @@
     "successors": []
   },
   "clas,cx_fdt_processing": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,cx_fhc_runtime": {
     "status": "RELEASED",
     "successors": []
   },
@@ -2711,6 +4063,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "clas,cx_ws_protocol_error": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "clas,cx_xco_ar_existence_exception": {
     "status": "RELEASED",
     "successors": []
@@ -2795,206 +4151,6 @@
     "status": "RELEASED",
     "successors": []
   },
-  "clas,mbc_cp_api": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_abap": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_abap_dictionary": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_abap_objects": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_abap_repository": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_abap_sql": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_amdp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_application_log_object": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_ars": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_bal": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_behavior_definition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_behavior_implementation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_binary": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_business_cnfgrtn_object": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_cds": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_cds_annotation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_cts": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_database_table": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_data_definition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_data_element": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_dcl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_ddl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_domain": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_generation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_generation_doma": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_generation_dtel": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_generation_tabl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_generation_ttyp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_i18n": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_json": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_language": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_message": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_message_class": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_metadata_extension": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_package": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_regular_expression": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_service_binding": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_software_component": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_string": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_system": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_table": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_table_type": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_tenant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_text_pool": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_transformation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_transport": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "clas,xco_cp_uuid": {
-    "status": "RELEASED",
-    "successors": []
-  },
   "ddls,c_gregoriancaldatefuncvh": {
     "status": "RELEASED",
     "successors": []
@@ -3004,1214 +4160,6 @@
     "successors": []
   },
   "ddls,c_pcf_codevaluehelp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,ddcds_customer_domain_value": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,ddcds_customer_domain_value_t": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,d_selectcustomizingtransptreqp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_academictitle": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_academictitletext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_activeaddressrepresentation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrcommunicationmethodtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrcurdefaultemailaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrcurdefaultfaxnumber": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrcurdfltlandlinephonenmbr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrcurdfltmobilephonenumber": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrdeliveryservicetypetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addresscommunicationmethod": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addresscommunicationremark_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addresscommunicationusage": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressdeliveryservicetype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressemailaddress_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressfaxnumber_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressmanagementuritype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressmanagementuritypetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressnondeliverablereason": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressnondeliverablereasont": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressobjecttype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressobjecttypetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addresspersonname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressphonenumber_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressrepresentation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressrepresentationtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addressworkplacedetails": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_address_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_addrorgnamepostaladdress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_apisforclouddevelopment": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bank_2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpaddrdepdntintllocnumber": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpcontact": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpcontacttoaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpcontacttofuncanddept": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpprotectedaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpusrexternalid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_bpusrrole": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_businesspartner": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_businesspartnerindustry": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_businesspartnertaxnumber": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_businessuserbasic": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_businessuservh": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_buspartaddrdepdnttaxnmbr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendardate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendarmonth": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendarmonthtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendarquarter": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendarquartertext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_calendaryear": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_configndeprecationcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_configndeprecationcodetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_country": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_countrytext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_currency": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_currencystdvh": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_currencytext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_custabapobjdirectoryentry": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_custabappackage": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_datefunctionvalue": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_daylightsavingrule": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_daylightsavingruletext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchangeratefactorsrawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchangeraterawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchangeratespreadrawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchangeratetype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchangeratetypetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_exchrateqtantyperawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_familynameprefix": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalcalendardate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalperiodforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalperiodrawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalperiodtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalperiodtextrawdata": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalquarterforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalweek": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalweekforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyear": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearperiod": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearperiodforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearperiodtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearquarter": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearquarterforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearvarianttext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearweek": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_fiscalyearweekforvariant": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_formofaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_formofaddresstext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessrole": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessroletext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessuserbusinessrole": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessuserlogondetails": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessuserpricecategory": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_iambusinessuserpricecattext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_language": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_languagetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_namesupplement": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_namesupplementtext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_organizationaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_personaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_personworkplaceaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_phonenumbertype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_phonenumbertypetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_postalcity": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_postalcitytext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_region": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_regionalstruccheckstatustext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_regionalstructurecheckstatus": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_regiontext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_secondaryregion": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_secondaryregiontext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_sglgregoriancaldatefunction": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_shiftedcalendardate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_shortenedfiscalyear": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_street": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_streettext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_systemuser": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_taxingcounty": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_taxingcountytext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_tertiaryregion": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_tertiaryregiontext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_timezone": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_timezonerule": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_timezoneruletext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_timezonetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_transportationzone": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasure": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasurecommercialname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasuredimension": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasuredimensiontext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasureisocode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasureisocodetext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasurestdvh": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasuretechnicalname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_unitofmeasuretext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_user": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_weekday": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_weekdaytext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_workplaceaddress": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ddls,i_yearmonth": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,abap_boolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,activ_auth": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,bapiflag": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,begru": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,char01": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,char1": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,char30": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,ddoption": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,ddsign": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,fis_gjahr_no_conv": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,isocd": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,isocd_unit": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,meins": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,regex_standard": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,spras": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,text40": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,waers": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdany": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdboolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdcurrcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_local": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_local_dt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_long_z": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_offset": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddatetime_z": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddate_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsddate_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdduration_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdlanguage": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdqname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdtime_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdtime_t": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsdunitcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsduuid_base32": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsduuid_base64": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsduuid_char": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "doma,xsduuid_raw": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abap_boolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abap_encod": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abap_msize": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_action_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_association_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_cid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_draft": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_feature": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_flag": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_kind": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_op_modify": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_op_read": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_pid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_behv_typekind": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_creation_date": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_creation_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_creation_tstmpl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_creation_user": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_creation_utcl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_element_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_entity_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_field_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_lastchange_date": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_lastchange_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_lastchange_tstmpl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_lastchange_user": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_lastchange_utcl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_locinst_lastchange_date": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_locinst_lastchange_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_locinst_lastchange_tstmpl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_locinst_lastchange_user": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_locinst_lastchange_utcl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abp_root_entity_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abwga_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,abwkt_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,activ_auth": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_addrnum": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_adrtype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_ctry_fr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_handle": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_line_s": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_persnum": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_title": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ad_titletx": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,alias_type_id": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,als_type_rule": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,als_type_validation": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,anzei": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,appl_var": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,aufnr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,aufps": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,auftyp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,badi_context_mode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,badi_filter_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,badi_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ballevel": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,balloghndl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,balmnr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,balobj_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,balognr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,balsubobj": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bank_alias": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapiag": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapicurext": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapicurext31": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapicurr_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapilogsys": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapimaxrow": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapinetwrk": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapioption": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapipara": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapirelsta": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapisign": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapiupdate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapiwait": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_back": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_comp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_conv": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_fld": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_high": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_index": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_lfrmt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_line": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_linesize": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_listr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_lmask": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_low": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_msg": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_mtype": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_ncomt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_param": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_sign": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_stxt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_tabl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_tfrmt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bapi_tline": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,begru": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,belnr_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bemot": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bktxt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,blart": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bldat": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bschl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,budat": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bukrs": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bupla": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,buzei": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,bwstrat": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,calendardate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,calltrans2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_decimal": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_destination": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_enum": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_id": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_long": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_repository_id": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,cmis_string": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,config_deprecation_code": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,co_belnr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,co_ressource": {
     "status": "RELEASED",
     "successors": []
   },
@@ -4231,11 +4179,27 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ddls,ddcds_customer_domain_value": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,ddcds_customer_domain_value_t": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "dtel,ddoption": {
     "status": "RELEASED",
     "successors": []
   },
+  "doma,ddoption": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "dtel,ddsign": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,ddsign": {
     "status": "RELEASED",
     "successors": []
   },
@@ -4275,6 +4239,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ddls,d_selectcustomizingtransptreqp": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "dtel,ean11": {
     "status": "RELEASED",
     "successors": []
@@ -4308,6 +4276,22 @@
     "successors": []
   },
   "dtel,fcurr_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,fdt_brs_s_trace_header": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,fdt_brs_s_trace_record": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,fdt_brs_t_trace_header": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,fdt_brs_t_trace_record": {
     "status": "RELEASED",
     "successors": []
   },
@@ -4347,6 +4331,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,fins_fiscalperiod": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,fins_fyearperiod": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "dtel,fins_tperiod_offset_unit": {
     "status": "RELEASED",
     "successors": []
@@ -4356,6 +4348,10 @@
     "successors": []
   },
   "dtel,fis_gjahr_no_conv": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,fis_gjahr_no_conv": {
     "status": "RELEASED",
     "successors": []
   },
@@ -4387,799 +4383,11 @@
     "status": "RELEASED",
     "successors": []
   },
-  "dtel,int1": {
+  "xslt,id": {
     "status": "RELEASED",
     "successors": []
   },
-  "dtel,int2": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,int4": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,intca": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,isocd": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,isocd_unit": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,koart": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,kokrs": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,kostl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,kstrg": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ktopl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,kurst": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,kurst_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,land1": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,logsystem": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,lstar": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,mandt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,matnr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,meins": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,menge_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,msehi": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,mwskz": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,numtp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,outputstyle": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pargb": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,payment_system_id": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_amount": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_boolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_currency": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_date": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_number": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_quantity": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_timestamp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pcf_unit": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,periv": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,poper": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,pprctr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,prctr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,prx_automatic_retry": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,prx_logical_port_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,prx_no_retry": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,prx_workflow_triggered": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_v2_edm_datetime": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_v2_edm_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_v4_edm_date": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_v4_edm_duration": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_v4_edm_timeofday": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rap_cp_odata_value_control": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,regex_standard": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,regio": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,rfcdest": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,scx_attrname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,scx_st_tstamp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sdraft_consistency_status": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sdraft_uuid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sgtxt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,shkzg": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,skost": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,spras": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,stceg": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,svc_instance_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,swf_all_users": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,swf_cpwf_consumer": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,swf_cpwf_handle": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ad_field_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ad_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_amdp_db_entity": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ao_component_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ao_full_component_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ao_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ao_short_description": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ao_subcomponent_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_aplo_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ar_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ar_object_type": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ar_short_description": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_bal_log_handle": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_bco_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_bdef_action_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_bdef_alias_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_bdef_evaluation_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cds_ann_property": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cds_association_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cds_field_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cds_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cds_parameter_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_clas_method_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cts_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_cts_object_type": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_dbt_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_ddef_alias_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_fg_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_fm_exception_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_fm_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_fm_parameter_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_gtt_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_i18n_text_attribute": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_mc_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_package": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_srvb_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_srvb_service_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_srvb_service_version": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_srvd_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_tf_object_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_transport": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sxco_user_name": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sychar01": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sycurr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sydate": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,symsgid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,symsgno": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,symsgty": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,symsgv": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,syrepid": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysubrc": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysuuid_c22": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysuuid_c26": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysuuid_c32": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysuuid_c36": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,sysuuid_x16": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,syuname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tabname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tcurr_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,te_struc": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tfact_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,timestamp": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,timestampl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,timezone": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,timn": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,txdat": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,txjcd": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tzntstmpl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tzntstmps": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,tznzone": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,ukurs_curr": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,usnam": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,utcl": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,valuepart": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,valut": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,waers": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,waers_curc": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,werks_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,wf_result": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,wrbtr_cs": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,wwert_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdany": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdboolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdcurrcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_local": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_local_dt": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_long_z": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_offset": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddatetime_z": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddate_d": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsddate_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdduration_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdlanguage": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdqname": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdtime_iso": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdtime_t": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsdunitcode": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsduuid_base32": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsduuid_base64": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsduuid_char": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "dtel,xsduuid_raw": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_client_proxy": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_data_desc_node": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_data_desc_node_l": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_expand_node": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_filter_factory": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_filter_node": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_batch": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_batch_op": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_changeset": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_create": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_delete": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_function": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_read": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_read_01": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_read_dlta": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_read_list": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_update": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_request_update_l": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_resource_entity": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_resource_entity01": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_resource_function": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_resource_list": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_create": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_function": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_read": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_read_01": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_read_lst": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_update": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_response_update_l": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_runtime_types": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "intf,/iwbep/if_cp_search_node": {
+  "xslt,id_indent": {
     "status": "RELEASED",
     "successors": []
   },
@@ -5471,6 +4679,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_ble_dt_row_iterator": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ble_dynamic_table": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_cds_access_control_data": {
     "status": "RELEASED",
     "successors": []
@@ -5508,6 +4724,30 @@
     "successors": []
   },
   "intf,if_chdo_object_tools_rel": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_check": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_check_meta_data": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_finding_stack": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_quickfix": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_source_code_provider": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ci_atc_unit_asserter": {
     "status": "RELEASED",
     "successors": []
   },
@@ -5672,6 +4912,18 @@
     "successors": []
   },
   "intf,if_fdt_types": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_fhc_fcal_runtime": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_fhc_hcal_runtime": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_fhc_holiday_runtime": {
     "status": "RELEASED",
     "successors": []
   },
@@ -5971,6 +5223,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_proxy_basis": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_proxy_client": {
     "status": "RELEASED",
     "successors": []
@@ -6160,6 +5416,10 @@
     "successors": []
   },
   "intf,if_ws_server_context": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_ws_soap_header_facade": {
     "status": "RELEASED",
     "successors": []
   },
@@ -6356,6 +5616,22 @@
     "successors": []
   },
   "intf,if_xco_ao_s_exception_content": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ao_s_parameter": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ao_s_parameters": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ao_s_parameters_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ao_s_parameter_content": {
     "status": "RELEASED",
     "successors": []
   },
@@ -6636,6 +5912,14 @@
     "successors": []
   },
   "intf,if_xco_ar_object_type": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ar_sia1_object_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_ar_sia1_object_factory": {
     "status": "RELEASED",
     "successors": []
   },
@@ -6951,6 +6235,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_char_code_page": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_char_cp_conversion": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_clas_class_method": {
     "status": "RELEASED",
     "successors": []
@@ -7076,6 +6368,10 @@
     "successors": []
   },
   "intf,if_xco_cp_ar_msag_oc_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_ar_sia1_oc_factory": {
     "status": "RELEASED",
     "successors": []
   },
@@ -7219,7 +6515,35 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_cp_call_stack": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_cp_cds_api_annotations": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_char_code_page_fctry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_cs_extr_api_from": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_cs_extr_api_to": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_cs_format_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_cs_line_nmbr_flv_fct": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_cs_line_pattern_fct": {
     "status": "RELEASED",
     "successors": []
   },
@@ -7863,6 +7187,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_cp_std_cur_api_cll_stck": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_cp_std_sy": {
     "status": "RELEASED",
     "successors": []
@@ -7884,6 +7212,14 @@
     "successors": []
   },
   "intf,if_xco_cp_tenant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_ten_globl_account_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_ten_subaccount_id": {
     "status": "RELEASED",
     "successors": []
   },
@@ -7943,7 +7279,107 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_cp_tr_api_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_api_key_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_api_obj_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_entry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_entry_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_entry_filter_fct": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_cp_tr_filter_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_key_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_key_entry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_ke_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_ke_table_key": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_ke_tk_component": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_ke_tk_cpnt_value": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_object_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_object_entry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_oe_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_oe_filter_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_api_obj_ents": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_object_entrs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_object_entry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_oe_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_tabu_api_oes": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_tabu_obj_ens": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_tabu_obj_ent": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cp_tr_r3tr_tabu_oe_clss": {
     "status": "RELEASED",
     "successors": []
   },
@@ -7976,6 +7412,18 @@
     "successors": []
   },
   "intf,if_xco_cp_uuid_format_factory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cs_format": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cs_line_number_flavor": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_cs_line_pattern": {
     "status": "RELEASED",
     "successors": []
   },
@@ -8599,6 +8047,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_gen_bdef_s_fo_b_asc_crt": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_gen_bdef_s_fo_b_assoctn": {
     "status": "RELEASED",
     "successors": []
@@ -9119,6 +8571,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_i18n_iam_bc_targt_objct": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_i18n_mc_target_message": {
     "status": "RELEASED",
     "successors": []
@@ -9152,6 +8608,18 @@
     "successors": []
   },
   "intf,if_xco_i18n_tt_target_record": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_iam_bc_i18n_targt_fctry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_iam_business_catalog": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_iam_business_catalogs": {
     "status": "RELEASED",
     "successors": []
   },
@@ -9523,6 +8991,14 @@
     "status": "RELEASED",
     "successors": []
   },
+  "intf,if_xco_tr_entry_filter": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "intf,if_xco_tr_entry_source": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "intf,if_xco_tr_filter": {
     "status": "RELEASED",
     "successors": []
@@ -9567,415 +9043,723 @@
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abap_sortorder": {
+  "dtel,int1": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_authorization": {
+  "dtel,int2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_changes": {
+  "dtel,int4": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_features": {
+  "dtel,intca": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_global_permissions": {
+  "dtel,isocd": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_locks": {
+  "doma,isocd": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_par_edit": {
+  "dtel,isocd_unit": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_permissions": {
+  "doma,isocd_unit": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_response": {
+  "ddls,i_academictitle": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,abp_behv_retrievals": {
+  "ddls,i_academictitletext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,address_printform_line": {
+  "ddls,i_academictitlevh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,arch_stat": {
+  "ddls,i_activeaddressrepresentation": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,arfctid": {
+  "ddls,i_addrcommunicationmethodtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,authfield_vals": {
+  "ddls,i_addrcurdefaultemailaddress": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,authorization_for_object": {
+  "ddls,i_addrcurdefaultfaxnumber": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,authvalinterval": {
+  "ddls,i_addrcurdfltlandlinephonenmbr": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,badi_filter_binding": {
+  "ddls,i_addrcurdfltmobilephonenumber": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bal_s_lgnm": {
+  "ddls,i_addrdeliveryservicetypetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiala": {
+  "ddls,i_addrdeliveryservicetypevh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapialb": {
+  "ddls,i_addresscommunicationmethod": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapialc": {
+  "ddls,i_addresscommunicationmethodvh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiald": {
+  "ddls,i_addresscommunicationremark_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapialf": {
+  "ddls,i_addresscommunicationusage": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapialg": {
+  "ddls,i_addressdeliveryservicetype": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapialt": {
+  "ddls,i_addressemailaddress_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiconvrs": {
+  "ddls,i_addressfaxnumber_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapicurr": {
+  "ddls,i_addressmanagementuritype": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapicurx": {
+  "ddls,i_addressmanagementuritypetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapicurx31": {
+  "ddls,i_addressmanagementuritypevh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiext": {
+  "ddls,i_addressnondeliverablereason": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiexta": {
+  "ddls,i_addressnondeliverablereasont": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiextc": {
+  "ddls,i_addressobjecttype": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4a": {
+  "ddls,i_addressobjecttypetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4b": {
+  "ddls,i_addresspersonname": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4c": {
+  "ddls,i_addressphonenumber_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4d": {
+  "ddls,i_addressrepresentation": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4e": {
+  "ddls,i_addressrepresentationcodevh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4f": {
+  "ddls,i_addressrepresentationtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapif4m": {
+  "ddls,i_addressworkplacedetails": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiflag": {
+  "ddls,i_address_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapihtml": {
+  "ddls,i_addrnondeliverablereasonvh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiinfo": {
+  "ddls,i_addrorgnamepostaladdress": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapimoncom": {
+  "ddls,i_apisforclouddevelopment": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapimonit": {
+  "ddls,i_bank_2": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapimonstr": {
+  "ddls,i_bpaddrdepdntintllocnumber": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiobjid": {
+  "ddls,i_bpcontact": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiparex": {
+  "ddls,i_bpcontacttoaddress": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiparex_help": {
+  "ddls,i_bpcontacttofuncanddept": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiranges": {
+  "ddls,i_bpprotectedaddress": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiret2": {
+  "ddls,i_bpusrexternalid": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapiretc": {
+  "ddls,i_bpusrrole": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapireti": {
+  "ddls,i_businesspartner": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapirets": {
+  "ddls,i_businesspartnergroupingtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapishlp": {
+  "ddls,i_businesspartnergrouptypetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapisrcsys": {
+  "ddls,i_businesspartnerindustry": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapita": {
+  "ddls,i_businesspartnerlegalformtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapitga": {
+  "ddls,i_businesspartnertaxnumber": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapitgb": {
+  "ddls,i_businessuserbasic": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bapi_stand": {
+  "ddls,i_businessuservh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,bdwfap_par": {
+  "ddls,i_buspartaddrdepdnttaxnmbr": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_ace": {
+  "ddls,i_buspartcategory": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_acl": {
+  "ddls,i_buspartcategorytext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_acl_capabilities": {
+  "ddls,i_calendardate": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_allowable_actions": {
+  "ddls,i_calendarmonth": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_capabilities": {
+  "ddls,i_calendarmonthtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_change_event": {
+  "ddls,i_calendarquarter": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_choice": {
+  "ddls,i_calendarquartertext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_client_property": {
+  "ddls,i_calendaryear": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_cnt_dlvry_nfo": {
+  "ddls,i_configndeprecationcode": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_content_raw": {
+  "ddls,i_configndeprecationcodetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_content_stream": {
+  "ddls,i_country": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_date_time": {
+  "ddls,i_countrytext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_extended_features": {
+  "ddls,i_currency": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_extension": {
+  "ddls,i_currencystdvh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_id_and_change_token": {
+  "ddls,i_currencytext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_impl_cap": {
+  "ddls,i_custabapobjdirectoryentry": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_key_value": {
+  "ddls,i_custabappackage": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_key_values": {
+  "ddls,i_datefunctionvalue": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object": {
+  "ddls,i_daylightsavingrule": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object_container": {
+  "ddls,i_daylightsavingruletext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object_in_folder": {
+  "ddls,i_exchangeratefactorsrawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object_in_folder_list": {
+  "ddls,i_exchangeraterawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object_list": {
+  "ddls,i_exchangeratespreadrawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_object_parent": {
+  "ddls,i_exchangeratetype": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_permission_definition": {
+  "ddls,i_exchangeratetypetext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_permission_mapping": {
+  "ddls,i_exchrateqtantyperawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_principal": {
+  "ddls,i_familynameprefix": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_properties": {
+  "ddls,i_familynameprefixvh": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_property": {
+  "ddls,i_fiscalcalendardate": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_property_definition": {
+  "ddls,i_fiscaldatefunction": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_property_value": {
+  "ddls,i_fiscaldatefunctiontext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_query_result": {
+  "ddls,i_fiscaldatefunctionvalue": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_query_result_list": {
+  "ddls,i_fiscalperiodforvariant": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_relationship": {
+  "ddls,i_fiscalperiodrawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_rendition": {
+  "ddls,i_fiscalperiodtext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_repository_info": {
+  "ddls,i_fiscalperiodtextrawdata": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_type_container": {
+  "ddls,i_fiscalquarter": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_type_definition": {
+  "ddls,i_fiscalquarterforvariant": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_type_list": {
+  "ddls,i_fiscalquartertext": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_type_mutability": {
+  "ddls,i_fiscalweek": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,cmis_s_type_set_attr": {
+  "ddls,i_fiscalweekforvariant": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,fdt_brs_s_trace_header": {
+  "ddls,i_fiscalyear": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,fdt_brs_s_trace_record": {
+  "ddls,i_fiscalyearforvariant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearperiod": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearperiodforvariant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearperiodtext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearquarter": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearquarterforvariant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearvariant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearvarianttext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearweek": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_fiscalyearweekforvariant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_formofaddress": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_formofaddresstext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessrole": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessroletext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessuserbusinessrole": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessuserlogondetails": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessuserpricecategory": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_iambusinessuserpricecattext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_language": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_languagetext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_namesupplement": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_namesupplementtext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_namesupplementvh": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_organizationaddress": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_personaddress": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_personworkplaceaddress": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_phonenumbertype": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_phonenumbertypetext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_postalcity": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_postalcitytext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_region": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_regionalstruccheckstatustext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_regionalstructurecheckstatus": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_regiontext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_regionvh": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_secondaryregion": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_secondaryregiontext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_sglgregoriancaldatefunction": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_shiftedcalendardate": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_shortenedfiscalyear": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_street": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_streettext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_systemuser": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_taxingcounty": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_taxingcountytext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_tertiaryregion": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_tertiaryregiontext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_timezone": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_timezonerule": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_timezoneruletext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_timezonetext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_transportationzone": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_transportationzonevh": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasure": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasurecommercialname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasuredimension": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasuredimensiontext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasureisocode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasureisocodetext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasurestdvh": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasuretechnicalname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_unitofmeasuretext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_user": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_weekday": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_weekdaytext": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_workplaceaddress": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ddls,i_yearmonth": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,koart": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,kokrs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,kostl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,kstrg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ktopl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,kurst": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,kurst_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,land1": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,logsystem": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,lstar": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,mandt": {
     "status": "RELEASED",
     "successors": []
   },
@@ -9983,7 +9767,131 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,match_result_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,matnr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,mbc_cp_api": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,meins": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,meins": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,menge_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,msehi": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,mwskz": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,numtp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,outputstyle": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pargb": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,payment_system_id": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_amount": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_boolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_currency": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_date": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_decimal_number": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_number": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_quantity": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_timestamp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pcf_unit": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,periv": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,poper": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,pprctr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,prctr": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "tabl,prxctrl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,prxctrltab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,prx_automatic_retry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,prx_logical_port_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,prx_no_retry": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,prx_workflow_triggered": {
     "status": "RELEASED",
     "successors": []
   },
@@ -9991,11 +9899,127 @@
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,rap_cp_odata_v2_edm_datetime": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rap_cp_odata_v2_edm_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rap_cp_odata_v4_edm_date": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rap_cp_odata_v4_edm_duration": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rap_cp_odata_v4_edm_timeofday": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rap_cp_odata_value_control": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,regex_standard": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,regex_standard": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,regio": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "tabl,repl_result": {
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,repl_result_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,rfcdest": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,role_authorizations": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,scx_attrname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,scx_st_tstamp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sdraft_consistency_status": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sdraft_uuid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sgtxt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,shkzg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,skost": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,spras": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,spras": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,stceg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,string_hashed_table": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,string_table": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "tabl,submatch_result": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,submatch_result_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,svc_instance_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,swf_all_users": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,swf_cpwf_consumer": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,swf_cpwf_handle": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10004,6 +10028,166 @@
     "successors": []
   },
   "tabl,sww_sont_key": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ad_field_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ad_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_amdp_db_entity": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ao_component_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ao_full_component_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ao_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ao_short_description": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ao_subcomponent_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_aplo_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ar_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ar_object_type": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ar_short_description": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_bal_log_handle": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_bco_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_bdef_action_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_bdef_alias_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_bdef_evaluation_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cds_ann_property": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cds_association_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cds_field_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cds_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cds_parameter_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_clas_method_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cts_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_cts_object_type": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_dbt_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_ddef_alias_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_fg_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_fm_exception_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_fm_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_fm_parameter_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_gtt_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_i18n_text_attribute": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_iam_bc_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_mc_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_package": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_srvb_object_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_srvb_service_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_srvb_service_version": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sxco_srvd_object_name": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10027,263 +10211,11 @@
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,sxsdduration": {
+  "dtel,sxco_tf_object_name": {
     "status": "RELEASED",
     "successors": []
   },
-  "tabl,sxsltepar": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "tabl,sych_bdl_draft_admin_inc": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "tabl,symsg": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "tabl,tsa4c_cp_svc_conn_details": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abap_sortorder_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_authorization_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_changes_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_features_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_global_permission_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_locks_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_permissions_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_relating_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_response_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_behv_retrievals_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,abp_field_name_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,authorization": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,authorization_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,authvalinterval_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,badi_filter_bindings": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bal_t_lgnm": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bapimonlst": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bapiparextab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bapiretct": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bapiretm": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,bapirettab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_ace": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_boolean": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_choice": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_client_property": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_date_time": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_decimal": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_enum": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_extended_features": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_extension": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_id": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_id_and_change_token": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_key_values": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_long": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_map": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_object": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_object_container": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_object_in_folder": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_object_parent": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_permission_definition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_permission_mapping": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_property": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_property_definition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_property_value": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_query_result": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_relationship": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_rendition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_repository_info": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_string": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_type_container": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,cmis_t_type_definition": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,fdt_brs_t_trace_header": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,fdt_brs_t_trace_record": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,match_result_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,prxctrltab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,repl_result_tab": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,role_authorizations": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,string_hashed_table": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,string_table": {
-    "status": "RELEASED",
-    "successors": []
-  },
-  "ttyp,submatch_result_tab": {
+  "dtel,sxco_transport": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10351,7 +10283,15 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,sxco_t_ao_subcomponent_names": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,sxco_t_ao_s_exceptions": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_ao_s_parameters": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10507,6 +10447,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,sxco_t_clas_method_names": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,sxco_t_cp_bal_exc_additions": {
     "status": "RELEASED",
     "successors": []
@@ -10528,6 +10472,30 @@
     "successors": []
   },
   "ttyp,sxco_t_cp_transports": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_key_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_ke_tk_components": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_object_entries": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_r3tr_object_entrs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_cp_tr_r3tr_tabu_obj_ens": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10663,6 +10631,18 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,sxco_t_iam_bc_texts": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_iam_bc_text_attributes": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "ttyp,sxco_t_iam_business_catalogs": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,sxco_t_intf_c_methods": {
     "status": "RELEASED",
     "successors": []
@@ -10775,6 +10755,10 @@
     "status": "RELEASED",
     "successors": []
   },
+  "ttyp,sxco_t_tr_entry_filters": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,sxco_t_tr_filters": {
     "status": "RELEASED",
     "successors": []
@@ -10787,11 +10771,115 @@
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,sxco_user_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,sxsdduration": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,sxsltepar": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,sxsltepars": {
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,sychar01": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,sych_bdl_draft_admin_inc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sycurr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sydate": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,symsg": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,symsgid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,symsgno": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,symsgty": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,symsgv": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,symsg_tab": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,syrepid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysubrc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysuuid_c22": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysuuid_c26": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysuuid_c32": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysuuid_c36": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,sysuuid_x16": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,syuname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tabname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tcode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tcurr_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,text40": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,te_struc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tfact_curr": {
     "status": "RELEASED",
     "successors": []
   },
@@ -10803,20 +10891,998 @@
     "status": "RELEASED",
     "successors": []
   },
+  "dtel,timestamp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,timestampl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,timezone": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,timn": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "tabl,tsa4c_cp_svc_conn_details": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,txdat": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,txjcd": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tzntstmpl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tzntstmps": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,tznzone": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,ukurs_curr": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,usnam": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,utcl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,valuepart": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,valut": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,waers": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,waers": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,waers_curc": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,werks_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,wf_result": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,wrbtr_cs": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,wwert_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_abap": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_abap_dictionary": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_abap_objects": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_abap_repository": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_abap_sql": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_amdp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_application_log_object": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_ars": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_bal": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_behavior_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_behavior_implementation": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_binary": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_business_cnfgrtn_object": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_call_stack": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_cds": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_cds_annotation": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_character": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_cts": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_database_table": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_data_definition": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_data_element": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_dcl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_ddl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_domain": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_generation": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_generation_doma": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_generation_dtel": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_generation_tabl": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_generation_ttyp": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_i18n": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_iam": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_iam_business_catalog": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_json": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_language": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_message": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_message_class": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_metadata_extension": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_name": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_package": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_regular_expression": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_service_binding": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_software_component": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_string": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_system": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_table": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_table_type": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_tenant": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_text_pool": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_time": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_transformation": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_transport": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "clas,xco_cp_uuid": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdany": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdany": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdboolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdboolean": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdcurrcode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdcurrcode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_local": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_local": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_local_dt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_local_dt": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_long_z": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_long_z": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_offset": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_offset": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddatetime_z": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddatetime_z": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddate_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddate_d": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsddate_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsddate_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdduration_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdduration_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdlanguage": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdlanguage": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdqname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdqname": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdtime_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdtime_iso": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdtime_t": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdtime_t": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsdunitcode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsdunitcode": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsduuid_base32": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsduuid_base32": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsduuid_base64": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsduuid_base64": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsduuid_char": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsduuid_char": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "dtel,xsduuid_raw": {
+    "status": "RELEASED",
+    "successors": []
+  },
+  "doma,xsduuid_raw": {
+    "status": "RELEASED",
+    "successors": []
+  },
   "ttyp,xstring_table": {
     "status": "RELEASED",
     "successors": []
   },
-  "type,abap": {
-    "status": "RELEASED",
+  "dtel,a4c_cp_service_type": {
+    "status": "DEPRECATED",
     "successors": []
   },
-  "xslt,id": {
-    "status": "RELEASED",
+  "dtel,a4c_cp_svc_instance_name": {
+    "status": "DEPRECATED",
     "successors": []
   },
-  "xslt,id_indent": {
-    "status": "RELEASED",
+  "dtel,a4c_cp_svc_property_name": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,a4c_cp_svc_property_value": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "tabl,bapiret1": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "tabl,bapireturn": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "tabl,bapireturn1": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,bapi_rcode": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,boolean": {
+    "status": "DEPRECATED",
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "ABAP_BOOLEAN"
+      }
+    ]
+  },
+  "dtel,boole_d": {
+    "status": "DEPRECATED",
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "ABAP_BOOLEAN"
+      }
+    ]
+  },
+  "doma,char001": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char010": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char02": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char03": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char08": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char1": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char10": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char10": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char100": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char100": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char11": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char116": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char12": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char12": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char120": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char120": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char123": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char128": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char128": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char13": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char134": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char134": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char14": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char14": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char140": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char140": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char15": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char15": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char150": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char16": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char16": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char17": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char17": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char18": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char18": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char180": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char19": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char1_x": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char2": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char2": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char20": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char20": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char200": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char200": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char21": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char22": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char22": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char24": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char24": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char240": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char25": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char25": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char251": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char251": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char255": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char255": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char256": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char26": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char26": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char260": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char260": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char27": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char28": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char3": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char3": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char30": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char300": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char32": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char32": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char33": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char34": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char35": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char35": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char36": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char37": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char38": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char38": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char4": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char4": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char40": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char40": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char42": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char45": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char45": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char46": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char47": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char48": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char49": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char5": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char5": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char50": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char55": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char56": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char58": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char6": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char6": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char60": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char61": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char64": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char64": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char65": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char66": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char7": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char70": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char70": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char72": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char78": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char79": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char79": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char8": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char8": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char80": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char80": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char81": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char9": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,char90": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char90": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,char93": {
+    "status": "DEPRECATED",
     "successors": []
   },
   "clas,cl_a4c_bc_factory": {
@@ -10825,6 +11891,10 @@
       {
         "type": "CLAS",
         "name": "CL_BCFG_CD_REUSE_API_FACTORY"
+      },
+      {
+        "type": "CLAS",
+        "name": "XCO_CP_CTS"
       }
     ]
   },
@@ -10895,707 +11965,11 @@
       }
     ]
   },
-  "ddls,i_apisforsapcoudplatform": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DDLS",
-        "name": "I_APISFORCLOUDDEVELOPMENT"
-      }
-    ]
-  },
-  "ddls,i_businessuser": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DDLS",
-        "name": "I_BUSINESSUSERBASIC"
-      }
-    ]
-  },
-  "doma,char001": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char010": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char02": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char03": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char08": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char10": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char100": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char11": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char116": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char12": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char120": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char123": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char128": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char13": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char134": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char14": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char140": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char15": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char150": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char16": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char17": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char18": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char180": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char19": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char1_x": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char2": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char20": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char200": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char21": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char22": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char24": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char240": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char25": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char251": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char255": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char256": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char26": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char260": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char27": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char28": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char3": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char300": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char32": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char33": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char34": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char35": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char36": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char37": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char38": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char4": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char40": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char42": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char45": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char46": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char47": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char48": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char49": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char5": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char50": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char55": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char56": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char58": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char6": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char60": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char61": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char64": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char65": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char66": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char7": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char70": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char72": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char78": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char79": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char8": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char80": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char81": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char9": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char90": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,char93": {
+  "dtel,dats": {
     "status": "DEPRECATED",
     "successors": []
   },
   "doma,dats": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text1": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text10": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text100": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text11": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text12": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text120": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text128": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text132": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text140": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text15": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text16": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text17": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text18": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text2": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text20": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text240": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text25": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text255": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text27": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text3": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text30": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text32": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text34": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text35": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text4": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text42": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text45": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text47": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text5": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text50": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text55": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text56": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text60": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text64": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text65": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text7": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text70": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text72": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text8": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text80": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text9": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "doma,text90": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,a4c_cp_service_type": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,a4c_cp_svc_instance_name": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,a4c_cp_svc_property_name": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,a4c_cp_svc_property_value": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,bapi_rcode": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,boolean": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "ABAP_BOOLEAN"
-      }
-    ]
-  },
-  "dtel,boole_d": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "ABAP_BOOLEAN"
-      }
-    ]
-  },
-  "dtel,char1": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char10": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char100": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char12": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char120": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char128": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char134": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char14": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char140": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char15": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char16": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char17": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char18": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char2": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char20": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char200": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char22": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char24": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char25": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char251": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char255": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char26": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char260": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char3": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char30": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char32": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char35": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char38": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char4": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char40": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char45": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char5": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char6": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char64": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char70": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char79": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char8": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char80": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,char90": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,dats": {
     "status": "DEPRECATED",
     "successors": []
   },
@@ -11614,142 +11988,6 @@
       {
         "type": "DTEL",
         "name": "SYSUUID_X16"
-      }
-    ]
-  },
-  "dtel,langu": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "SPRAS"
-      }
-    ]
-  },
-  "dtel,numc2": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,numc3": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,numc4": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,rkz_dbna": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "TABNAME"
-      }
-    ]
-  },
-  "dtel,text12": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text128": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text132": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text15": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text180": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text20": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text200": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text240": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text25": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text255": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text256": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text30": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text35": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text40": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text50": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text6": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text60": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text70": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text8": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text80": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text9": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,text90": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
-  "dtel,uname": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "SYUNAME"
-      }
-    ]
-  },
-  "dtel,xfeld": {
-    "status": "DEPRECATED",
-    "successors": [
-      {
-        "type": "DTEL",
-        "name": "ABAP_BOOLEAN"
       }
     ]
   },
@@ -11802,21 +12040,61 @@
       }
     ]
   },
-  "tabl,bapiret1": {
+  "ddls,i_apisforsapcoudplatform": {
     "status": "DEPRECATED",
-    "successors": []
+    "successors": [
+      {
+        "type": "DDLS",
+        "name": "I_APISFORCLOUDDEVELOPMENT"
+      }
+    ]
   },
-  "tabl,bapireturn": {
+  "ddls,i_businessuser": {
     "status": "DEPRECATED",
-    "successors": []
+    "successors": [
+      {
+        "type": "DDLS",
+        "name": "I_BUSINESSUSERBASIC"
+      }
+    ]
   },
-  "tabl,bapireturn1": {
+  "dtel,langu": {
     "status": "DEPRECATED",
-    "successors": []
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "SPRAS"
+      }
+    ]
   },
   "tabl,ldbcb": {
     "status": "DEPRECATED",
     "successors": []
+  },
+  "ttyp,ldbcb_tt": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,numc2": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,numc3": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,numc4": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,rkz_dbna": {
+    "status": "DEPRECATED",
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "TABNAME"
+      }
+    ]
   },
   "tabl,scx_srcpos": {
     "status": "DEPRECATED",
@@ -11831,16 +12109,286 @@
       }
     ]
   },
-  "ttyp,ldbcb_tt": {
-    "status": "DEPRECATED",
-    "successors": []
-  },
   "ttyp,stringtab": {
     "status": "DEPRECATED",
     "successors": [
       {
         "type": "TTYP",
         "name": "STRING_TABLE"
+      }
+    ]
+  },
+  "doma,text1": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text10": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text100": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text11": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text12": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text12": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text120": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text128": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text128": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text132": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text132": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text140": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text15": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text15": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text16": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text17": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text18": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text180": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text2": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text20": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text20": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text200": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text240": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text240": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text25": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text25": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text255": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text255": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text256": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text27": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text3": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text30": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text30": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text32": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text34": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text35": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text35": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text4": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text40": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text42": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text45": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text47": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text5": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text50": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text50": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text55": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text56": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text6": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text60": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text60": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text64": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text65": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text7": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text70": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text70": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text72": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text8": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text8": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text80": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text80": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text9": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text9": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "doma,text90": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,text90": {
+    "status": "DEPRECATED",
+    "successors": []
+  },
+  "dtel,uname": {
+    "status": "DEPRECATED",
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "SYUNAME"
+      }
+    ]
+  },
+  "dtel,xfeld": {
+    "status": "DEPRECATED",
+    "successors": [
+      {
+        "type": "DTEL",
+        "name": "ABAP_BOOLEAN"
       }
     ]
   },

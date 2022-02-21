@@ -37,6 +37,11 @@ INTERFACE if_bali_log
       !message_table TYPE bapirettab
     RAISING
       cx_bali_runtime.
+  METHODS add_all_items_from_other_log
+    IMPORTING
+      !source_log TYPE REF TO if_bali_log
+    RAISING
+      cx_bali_runtime.
   METHODS get_item
     IMPORTING
       !log_item_number TYPE ty_log_item_number

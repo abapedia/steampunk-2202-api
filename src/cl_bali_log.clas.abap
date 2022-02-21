@@ -7,6 +7,8 @@ CLASS cl_bali_log DEFINITION
 
     INTERFACES if_bali_log.
 
+    ALIASES add_all_items_from_other_log
+      FOR if_bali_log~add_all_items_from_other_log.
     ALIASES add_item
       FOR if_bali_log~add_item.
     ALIASES add_messages_from_bapirettab

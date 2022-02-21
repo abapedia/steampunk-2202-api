@@ -17,6 +17,9 @@
 @ObjectModel.usageType.sizeCategory: #S
 @ObjectModel.usageType.dataClass: #CUSTOMIZING
 @ObjectModel.representativeKey: 'UnitOfMeasureDimension'
+@ObjectModel.supportedCapabilities: [#SQL_DATA_SOURCE, 
+                                     #CDS_MODELING_DATA_SOURCE, 
+                                     #CDS_MODELING_ASSOCIATION_TARGET]
 
 @Analytics.internalName: #LOCAL
 @Analytics:{ dataCategory: #DIMENSION, dataExtraction.enabled: true }

@@ -7,7 +7,7 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Unit of Measure Commercial Name'
 
-@VDM.Viewtype: #BASIC
+@VDM.viewType: #BASIC
 @VDM.lifecycle.contract.type: #PUBLIC_LOCAL_API
 
 @ClientHandling.type: #INHERITED
@@ -18,6 +18,9 @@
 @ObjectModel.usageType.sizeCategory: #S
 @ObjectModel.usageType.dataClass: #CUSTOMIZING
 @ObjectModel.representativeKey: 'UnitOfMeasureCommercialName'
+@ObjectModel.supportedCapabilities: [#SQL_DATA_SOURCE, 
+                                     #CDS_MODELING_DATA_SOURCE, 
+                                     #CDS_MODELING_ASSOCIATION_TARGET]
 
 @Analytics.internalName: #LOCAL
 @Analytics: {dataExtraction.enabled: true}

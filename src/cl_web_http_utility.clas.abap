@@ -5,6 +5,10 @@ CLASS cl_web_http_utility DEFINITION
 
   PUBLIC SECTION.
 
+    CONSTANTS urlcheck_default TYPE x VALUE 6 ##NO_TEXT.
+    CONSTANTS co_disabled TYPE i VALUE 0 ##NO_TEXT.
+    CONSTANTS co_enabled TYPE i VALUE 1 ##NO_TEXT.
+
     CLASS-METHODS decode_utf8
       IMPORTING
       !encoded TYPE xstring
@@ -70,6 +74,23 @@ CLASS cl_web_http_utility DEFINITION
       !options TYPE i OPTIONAL
       RETURNING
       VALUE(unescaped) TYPE string.
+    CLASS-METHODS is_valid_url
+      IMPORTING
+      !url TYPE string
+      !black_pattern TYPE REF TO cl_abap_regex OPTIONAL
+      !white_pattern TYPE REF TO cl_abap_regex OPTIONAL
+      !restrictive TYPE abap_bool DEFAULT abap_true
+      !options TYPE x DEFAULT urlcheck_default
+      RETURNING
+      VALUE(is_ok) TYPE abap_bool.
+    CLASS-METHODS normalize_url
+      IMPORTING
+      !unnormalized TYPE string
+      RETURNING
+      VALUE(normalized) TYPE string.
+    CLASS-METHODS get_last_error
+      RETURNING
+      VALUE(rc) TYPE i.
 ENDCLASS.
 
 CLASS cl_web_http_utility IMPLEMENTATION.

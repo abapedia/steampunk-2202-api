@@ -25,6 +25,7 @@ CLASS cl_apj_scp_tools DEFINITION
       IMPORTING
       !iv_min_offset TYPE i DEFAULT 0
       !iv_force_reschedule TYPE abap_bool DEFAULT abap_false
+      !iv_self_termination TYPE abap_bool DEFAULT abap_false
       EXPORTING
       !es_new_job TYPE ty_new_job_info
       RETURNING
@@ -33,6 +34,7 @@ CLASS cl_apj_scp_tools DEFINITION
       RETURNING
       VALUE(rv_length) TYPE i.
 
+    CLASS-METHODS terminate_me.
 ENDCLASS.
 
 CLASS cl_apj_scp_tools IMPLEMENTATION.
