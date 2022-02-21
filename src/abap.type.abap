@@ -96,7 +96,7 @@ TYPES:
   END OF abap_key_alias_pair,
   abap_key_alias_map TYPE SORTED TABLE OF abap_key_alias_pair
                           WITH NON-UNIQUE KEY name
-                          WITH UNIQUE SORTED KEY key_alias COMPONENTS alias
+                          with unique sorted key key_alias components alias
                           INITIAL SIZE 2,
   BEGIN OF abap_parmdescr,
     length        TYPE i,

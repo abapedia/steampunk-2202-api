@@ -1,4 +1,4 @@
-@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AbapCatalog.viewEnhancementCategory:[#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Business Role'
 @Metadata.ignorePropagatedAnnotations: true

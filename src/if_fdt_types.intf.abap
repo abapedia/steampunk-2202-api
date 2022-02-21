@@ -73,7 +73,7 @@ INTERFACE if_fdt_types
   TYPES:
     ts_short_text TYPE SORTED TABLE OF if_fdt_types=>s_short_text
       WITH UNIQUE KEY langu.
-  TYPES TEXT TYPE c LENGTH 80.
+  TYPES text TYPE c LENGTH 80.
   TYPES:
     BEGIN OF s_text,
       langu TYPE langu,
@@ -84,11 +84,11 @@ INTERFACE if_fdt_types
       WITH UNIQUE KEY langu.
   TYPES:
     BEGIN OF s_usage,
-      client           TYPE mandt, "only valid for SYSTEM_OBJECT = ABAP_FALSE
-      id               TYPE if_fdt_types=>id,
-      version          TYPE if_fdt_types=>version,
-      object_type      TYPE if_fdt_types=>object_type,
-      is_system_object TYPE abap_bool,
+      client                TYPE mandt, "only valid for SYSTEM_OBJECT = ABAP_FALSE
+      id                    TYPE if_fdt_types=>id,
+      version               TYPE if_fdt_types=>version,
+      object_type           TYPE if_fdt_types=>object_type,
+      is_system_object      TYPE abap_bool,
       is_customizing_object TYPE abap_bool,
     END OF s_usage.
   TYPES:
@@ -99,8 +99,8 @@ INTERFACE if_fdt_types
       WITH UNIQUE KEY client id version.
   TYPES:
     BEGIN OF s_rule_version,
-      rule_id          TYPE if_fdt_types=>id,
-      version          TYPE if_fdt_types=>version,
+      rule_id TYPE if_fdt_types=>id,
+      version TYPE if_fdt_types=>version,
     END OF s_rule_version.
   TYPES:
     ts_rule_version TYPE SORTED TABLE OF if_fdt_types=>s_rule_version
@@ -123,15 +123,15 @@ INTERFACE if_fdt_types
     t_source_code TYPE STANDARD TABLE OF source_code WITH DEFAULT KEY.
   TYPES:
     BEGIN OF s_used_context_id,
-        id          TYPE if_fdt_types=>id,
-        is_optional TYPE abap_bool,
-      END OF s_used_context_id.
+      id          TYPE if_fdt_types=>id,
+      is_optional TYPE abap_bool,
+    END OF s_used_context_id.
   TYPES:
     ts_used_context_id TYPE SORTED TABLE OF s_used_context_id
                                        WITH UNIQUE KEY id.
   TYPES:
     BEGIN OF s_id_value,
-      id TYPE c LENGTH 32,
+      id    TYPE c LENGTH 32,
       value TYPE REF TO data,
     END OF s_id_value.
   TYPES:
@@ -139,7 +139,7 @@ INTERFACE if_fdt_types
                            WITH NON-UNIQUE KEY id.
   TYPES:
     BEGIN OF s_name_value,
-      name TYPE name,
+      name  TYPE name,
       value TYPE REF TO data,
     END OF s_name_value.
   TYPES:
@@ -157,18 +157,18 @@ INTERFACE if_fdt_types
   TYPES msg_severity TYPE c.
   TYPES:
     BEGIN OF s_id_name,
-         id TYPE c LENGTH 32,
-         name TYPE name,
-       END OF s_id_name.
+      id   TYPE c LENGTH 32,
+      name TYPE name,
+    END OF s_id_name.
   TYPES:
     t_id_name TYPE STANDARD TABLE OF s_id_name.
   TYPES:
     ts_id_name TYPE SORTED TABLE OF s_id_name WITH UNIQUE KEY id.
   TYPES:
     BEGIN OF s_ids_for_id,
-          id TYPE if_fdt_types=>id,
-          th_object_id TYPE if_fdt_types=>th_object_id,
-        END OF s_ids_for_id.
+      id           TYPE if_fdt_types=>id,
+      th_object_id TYPE if_fdt_types=>th_object_id,
+    END OF s_ids_for_id.
   TYPES:
     th_ids_for_id TYPE HASHED TABLE OF s_ids_for_id
            WITH UNIQUE KEY id.
@@ -177,10 +177,11 @@ INTERFACE if_fdt_types
   TYPES:
     sub_activity(2) TYPE n.
   TYPES:
-      BEGIN OF s_sub_activity,
-        sub_activity TYPE sub_activity,
-        id           TYPE if_fdt_types=>id,
+    BEGIN OF s_sub_activity,
+      sub_activity TYPE sub_activity,
+      id           TYPE if_fdt_types=>id,
     END OF s_sub_activity.
+
   TYPES:
     BEGIN OF s_brf_usage,
       app_name   TYPE if_fdt_types=>name,

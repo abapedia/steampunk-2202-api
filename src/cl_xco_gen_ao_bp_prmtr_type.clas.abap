@@ -1,4 +1,9 @@
-CLASS cl_xco_gen_ao_bp_prmtr_type DEFINITION PUBLIC FINAL CREATE PRIVATE.
+CLASS cl_xco_gen_ao_bp_prmtr_type DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PRIVATE.
+
+  PUBLIC SECTION.
 ENDCLASS.
 
 CLASS cl_xco_gen_ao_bp_prmtr_type IMPLEMENTATION.

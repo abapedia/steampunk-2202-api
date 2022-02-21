@@ -13,4 +13,5 @@ INTERFACE /iwbep/if_cp_request_changeset
     RETURNING
       VALUE(ro_request) TYPE REF TO /iwbep/if_cp_request_changeset
     RAISING /iwbep/cx_gateway.
+
 ENDINTERFACE.

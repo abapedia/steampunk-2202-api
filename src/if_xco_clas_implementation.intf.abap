@@ -1,6 +1,6 @@
 INTERFACE if_xco_clas_implementation PUBLIC.
   DATA:
-    class TYPE REF TO if_xco_ao_class READ-ONLY.
+    class   TYPE REF TO if_xco_ao_class READ-ONLY.
 
   METHODS:
     method

@@ -43,8 +43,11 @@ INTERFACE if_xco_ao_class
   METHODS set_api_state
     IMPORTING
       !io_change_scenario TYPE REF TO if_xco_cts_change_scenario
+      !io_release_contract TYPE REF TO cl_xco_ars_release_contract OPTIONAL
       !io_api_state TYPE REF TO cl_xco_ars_api_state.
   METHODS get_api_state
+    IMPORTING
+      !io_release_contract TYPE REF TO cl_xco_ars_release_contract OPTIONAL
     RETURNING
       VALUE(ro_api_state) TYPE REF TO cl_xco_ars_api_state.
   METHODS class_method

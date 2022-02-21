@@ -39,6 +39,13 @@ INTERFACE /iwbep/if_cp_client_proxy
       VALUE(rv_delt_request_can_be_created) TYPE abap_bool
     RAISING
       /iwbep/cx_gateway.
+  METHODS create_resource_for_action
+    IMPORTING
+      VALUE(iv_action_import_name) TYPE /iwbep/if_cp_runtime_types=>ty_internal_name
+    RETURNING
+      VALUE(ro_action_resource)    TYPE REF TO /iwbep/if_cp_resource_action
+    RAISING
+      /iwbep/cx_gateway.
   METHODS create_resource_for_entity_set
     IMPORTING
       !iv_entity_set_name     TYPE /iwbep/if_cp_runtime_types=>ty_entity_set_name

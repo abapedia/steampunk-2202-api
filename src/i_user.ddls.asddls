@@ -10,6 +10,7 @@
 @ObjectModel.usageType.dataClass: #MASTER
 @ObjectModel.usageType.serviceQuality: #A
 @ObjectModel.usageType.sizeCategory: #M
+@ObjectModel.representativeKey: 'UserID'
 // 1. Background information:
 // Users represent either persons or technical entities.
 // Cloud      Environment: Users created for persons, communication and printing are owned by the customer.
@@ -42,8 +43,14 @@
 define view I_User
   as select from usr21
 
+  association [0..1] to I_AddrCurDefaultEmailAddress as _AddrCurDefaultEmailAddress 
+                     on  usr21.persnumber = _AddrCurDefaultEmailAddress.AddressPersonID
+                     and usr21.addrnumber = _AddrCurDefaultEmailAddress.AddressID   
+
 {
   key UserID,
       UserDescription,
-      IsTechnicalUser
+      IsTechnicalUser,
+      AddressPersonID,
+      AddressID
 }

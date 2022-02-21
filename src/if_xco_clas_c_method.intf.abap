@@ -10,6 +10,8 @@ INTERFACE if_xco_clas_c_method PUBLIC.
 
     exists FOR if_xco_ao_c_method~exists,
 
+    parameters FOR if_xco_ao_c_method~parameters,
+
     importing_parameters FOR if_xco_ao_c_method~importing_parameters,
     exporting_parameters FOR if_xco_ao_c_method~exporting_parameters,
     changing_parameters  FOR if_xco_ao_c_method~changing_parameters,

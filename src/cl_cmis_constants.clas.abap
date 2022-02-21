@@ -68,6 +68,7 @@ CLASS cl_cmis_constants DEFINITION
         cmis_rm_hold      TYPE cmis_enum VALUE 'cmis:rm_hold',
         mcm_value_help    TYPE cmis_enum VALUE 'mcm:valueHelp',
         mcm_link          TYPE cmis_enum VALUE 'mcm:link',
+        sapecm_uri        TYPE cmis_enum VALUE 'sapecm:uri',
       END OF base_type_id.
     CONSTANTS:
       BEGIN OF binding_type,

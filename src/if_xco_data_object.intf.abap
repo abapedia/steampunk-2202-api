@@ -1,6 +1,8 @@
 INTERFACE if_xco_data_object PUBLIC.
   INTERFACES:
-    if_xco_payload.
+    if_xco_payload,
+
+    if_xco_printable.
 
   METHODS:
     get_reference

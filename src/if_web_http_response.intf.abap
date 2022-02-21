@@ -6,6 +6,12 @@ INTERFACE if_web_http_response
       code   TYPE i,
       reason TYPE string,
     END OF http_status.
+
+  CONSTANTS co_compress_based_on_mime_type TYPE i VALUE 2 ##NO_TEXT.
+  CONSTANTS co_formfield_encoding_raw TYPE i VALUE 1 ##NO_TEXT.
+  CONSTANTS co_formfield_encoding_encoded TYPE i VALUE 2 ##NO_TEXT.
+  CONSTANTS co_compress_none TYPE i VALUE 0 ##NO_TEXT.
+  CONSTANTS co_compress_in_all_cases TYPE i VALUE 1 ##NO_TEXT.
   METHODS set_text
     IMPORTING
       !i_text TYPE string
@@ -124,4 +130,43 @@ INTERFACE if_web_http_response
       VALUE(num) TYPE i
     EXCEPTIONS
       cx_web_message_error.
+  METHODS delete_header_field
+    IMPORTING
+      !name TYPE string.
+  METHODS delete_cookie_at_client
+    IMPORTING
+      !name TYPE string
+      !path TYPE string DEFAULT ''
+      !domain TYPE string DEFAULT ''.
+  METHODS get_content_type
+    RETURNING
+      VALUE(content_type) TYPE string.
+  METHODS set_compression
+    IMPORTING
+      !disable_extended_checks TYPE abap_bool DEFAULT abap_false
+      !options TYPE i DEFAULT co_compress_based_on_mime_type.
+  METHODS set_content_type
+    IMPORTING
+      !content_type TYPE string.
+  METHODS suppress_content_type
+    IMPORTING
+      !suppress TYPE abap_bool DEFAULT abap_true.
+  METHODS from_xstring
+    IMPORTING
+      !data TYPE xstring.
+  METHODS get_data_length
+    EXPORTING
+      !data_length TYPE i.
+  METHODS set_formfield_encoding
+    IMPORTING
+      !formfield_encoding TYPE i.
+  METHODS get_last_error
+    RETURNING
+      VALUE(rc) TYPE i.
+  METHODS server_cache_expire_rel
+    IMPORTING
+      !expires_rel TYPE i
+      !etag TYPE char32 OPTIONAL
+      !browser_dependent TYPE boolean DEFAULT ' '
+      !no_ufo_cache TYPE boolean DEFAULT ' '.
 ENDINTERFACE.

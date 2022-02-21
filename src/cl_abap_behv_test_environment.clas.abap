@@ -1,7 +1,8 @@
-CLASS cl_abap_behv_test_environment DEFINITION "for testing
+CLASS cl_abap_behv_test_environment DEFINITION
   PUBLIC
   FINAL
   CREATE PRIVATE.
+
   PUBLIC SECTION.
     CLASS-METHODS set_test_double
       IMPORTING
@@ -9,8 +10,6 @@ CLASS cl_abap_behv_test_environment DEFINITION "for testing
     CLASS-METHODS unset_test_double
       IMPORTING
         !root TYPE abp_root_entity_name.
-
-  PROTECTED SECTION.
 ENDCLASS.
 
 CLASS cl_abap_behv_test_environment IMPLEMENTATION.

@@ -19,6 +19,10 @@
 @ObjectModel.usageType.sizeCategory: #S
 @ObjectModel.usageType.dataClass: #CUSTOMIZING
 @ObjectModel.representativeKey: 'UnitOfMeasure'
+@ObjectModel.supportedCapabilities: [#LANGUAGE_DEPENDENT_TEXT,
+                                     #SQL_DATA_SOURCE, 
+                                     #CDS_MODELING_DATA_SOURCE, 
+                                     #CDS_MODELING_ASSOCIATION_TARGET]
 
 @Analytics.internalName: #LOCAL
 @Analytics.dataExtraction.enabled: true

@@ -1,19 +1,15 @@
-CLASS cl_xco_cts_change DEFINITION
-  PUBLIC
-  ABSTRACT
-  CREATE PRIVATE.
-
+CLASS cl_xco_cts_change DEFINITION PUBLIC ABSTRACT CREATE PRIVATE.
   PUBLIC SECTION.
+    INTERFACES:
+      if_xco_cts_change_carrier FINAL METHODS get_change.
 
-    INTERFACES if_xco_cts_change_carrier
-      FINAL METHODS get_change.
+    METHODS:
+      is_equal_to ABSTRACT
+        IMPORTING
+          io_change             TYPE REF TO cl_xco_cts_change
+        RETURNING
+          VALUE(rv_is_equal_to) TYPE abap_bool.
 
-    METHODS is_equal_to
-      ABSTRACT
-      IMPORTING
-      !io_change TYPE REF TO cl_xco_cts_change
-      RETURNING
-      VALUE(rv_is_equal_to) TYPE abap_bool.
   PROTECTED SECTION.
     METHODS:
       check ABSTRACT
